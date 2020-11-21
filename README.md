@@ -5,6 +5,8 @@ Avoid writing test methods over and over, create test methods with these simple 
 
 Create unit test stubs easily in python and Java simply by typing ```!init``` to create the initial structure e.g. the imports and the class name with one test method stub, and ```!test``` will only create a method stub.
 
+Note: To use the snippets you should be be in a file which is either a .py file or .java.
+
 ## Examples:
 Create python test class
 ```!init```
