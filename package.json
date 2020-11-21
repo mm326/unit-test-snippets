@@ -2,6 +2,7 @@
     "name": "unittestsnippets",
     "displayName": "Unit test snippets",
     "description": "Creates unit test stubs",
+    "publisher": "muadmodev",
     "icon": "snipe.png",
     "repository": {
         "type": "git",
