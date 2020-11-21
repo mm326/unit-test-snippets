@@ -1,0 +1,27 @@
+{
+    "Initial test import and class for Java unit test structure": {
+        "prefix": "!init",
+        "body": [
+            "import org.junit.jupiter.api.Test;",
+            "",
+            "public class ${1:TestClass} {",
+            "",
+            "\t@Test",
+            "\tvoid ${2:testName}() {",
+            "",
+            "\t}"
+        ],
+        "description": "Creates initial unit test structure"
+    },
+    "Subsequent unit test methods": {
+        "prefix": "!test",
+        "body": [
+            "",
+            "\t@Test",
+            "\tvoid ${1:testName}() {",
+            "",
+            "\t}"
+        ],
+        "description": "Creates unit test method stub"
+    }
+}

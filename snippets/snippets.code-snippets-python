@@ -1,0 +1,23 @@
+{
+    "Initial test import and class for python unit test structure": {
+        "prefix": "!init",
+        "body": [
+            "import unittest",
+            "",
+            "class ${1:TestClass}(unittest.TestCase):",
+            "",
+            "\tdef ${2:test_name}(self):",
+            "\t\tself.assertEquals(1,1)"
+        ],
+        "description": "Creates initial unit test structure"
+    },
+    "Subsequent unit test functions": {
+        "prefix": "!test",
+        "body": [
+            "",
+            "\tdef ${1:test_name}(self):",
+            "\t\tself.assertEquals(1,1)"
+        ],
+        "description": "Creates unit test function stub"
+    }
+}

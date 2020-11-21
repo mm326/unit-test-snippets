@@ -1,0 +1,29 @@
+{
+    "name": "unittestsnippets",
+    "displayName": "Unit test snippets",
+    "description": "Creates unit test stubs",
+    "icon": "snipe.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mm326/test-snipe"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.code-snippets-python"
+            },
+            {
+                "language": "java",
+                "path": "./snippets/snippets.code-snippets-java"
+            }
+        ]
+    }
+}
